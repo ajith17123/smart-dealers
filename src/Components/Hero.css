@@ -1,0 +1,50 @@
+.hero-sec {
+    padding: 100px 0;
+    background-color: #121212;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.hero-para {
+    font-size: 1.2rem;
+    color: #9ca3af;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+.hero-but {
+    display: flex;
+    gap: 20px;
+}
+.btn-hero {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #BB86FC;
+}
+.hero-but .btn-hero {
+    background-color: #BB86FC;
+    color: #121212;
+}
+.hero-but .btn-hero:hover {
+    background-color: #FFFFFF;
+    color: black;
+}    
+.hero-img {
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+    height: 400px;
+    width: 100%;
+}
+.hero-img:hover {
+    transform: translateY(-10px);
+}

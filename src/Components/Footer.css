@@ -1,0 +1,42 @@
+.foot-sec {
+    background-color: #0f0f0f;
+    color: white;
+}
+.foot-logo {
+    color: #BB86FC;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.foot-logo i {
+    font-size: 1.5rem;
+}
+.foot-title {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.foot-text {
+    color: #9ca3af;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+.foot-link {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 1rem;
+}
+.foot-link:hover {
+    color: #BB86FC;
+    transform: translateX(5px);
+}
+
